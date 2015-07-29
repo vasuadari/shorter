@@ -6,6 +6,21 @@
 
   gem install shorter
 
+## Usage
+
+  For example, if you have a User model with `users` as it's table name. You'll do as
+  below to fetch it from the database with `id` column.
+
+  ```
+  user = User.where(id: 1).first
+  ```
+
+  Using this gem, you can query it like this
+
+  ```
+  1.users
+  ```
+
 ## License
 
 MIT License (MIT)
