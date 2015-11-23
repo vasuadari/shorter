@@ -1,7 +1,7 @@
 Gem::Specification.new do |gem|
   gem.name         = 'shorter'
   gem.version      = '0.0.2'
-  gem.date         = '2015-07-29'
+  gem.date         = '2015-11-23'
   gem.summary      = "shorter for rails' methods"
   gem.description  = 'An idea to reduce a piece of code'
   gem.authors      = ["Vasu Adari"]
