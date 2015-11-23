@@ -1,6 +1,10 @@
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'shorter/version'
+
 Gem::Specification.new do |gem|
   gem.name         = 'shorter'
-  gem.version      = '0.0.2'
+  gem.version      = Shorter::VERSION
   gem.date         = '2015-11-23'
   gem.summary      = "shorter for rails' methods"
   gem.description  = 'An idea to reduce a piece of code'
@@ -8,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email        = 'vasuakeel@gmail.com'
   gem.homepage     = 'https://github.com/vasuakeel/shorter'
 
-  gem.files        = Dir["lib/**/*"]
+  gem.files        = `git ls-files`.split($/)
   gem.require_path = 'lib'
 
   gem.license      = 'MIT'
