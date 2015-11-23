@@ -28,7 +28,7 @@ module Shorter
 
       def model(table_name)
         loaded || reload!
-        tables_and_models[table_name.to_s]
+        tables_and_models[table_name.to_s.pluralize]
       end
     end
   end
