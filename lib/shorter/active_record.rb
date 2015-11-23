@@ -1,5 +1,3 @@
-require_relative 'active_record/tables_and_models'
-
 module Shorter
   module ActiveRecord
     def method_missing(method_name, *args, &block)
