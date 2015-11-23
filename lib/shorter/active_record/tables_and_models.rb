@@ -20,7 +20,7 @@ module Shorter
       end
 
       def reload!
-        unless tables_and_models.values.count == ::ActiveRecord::Base.send(:subclasses).count
+        unless tables_and_models.values.size == ::ActiveRecord::Base.send(:subclasses).size
           @loaded = true
           load!
         end
