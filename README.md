@@ -4,7 +4,9 @@
 
 ## Getting Started
 
+  ```
   gem install shorter
+  ```
 
 ## Usage
 
