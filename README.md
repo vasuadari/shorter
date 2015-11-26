@@ -8,17 +8,17 @@
 
 ## Usage
 
-  For example, if you have a User model with `users` as it's table name. You'll do as
-  below to fetch it from the database with `id` column.
+  For example, if you have a User model with `users` as it's table name. You'll follow
+  rails way to fetch a record from database as below.
 
   ```
   user = User.where(id: 1).first
   ```
 
-  Using this gem, you can query it like this
+  But using this gem, you can query it by just doing
 
   ```
-  1.users
+  1.user or 1.users
   ```
 
 ## License
