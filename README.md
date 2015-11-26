@@ -1,4 +1,4 @@
-## Shorter
+## Shorter [![Build Status](https://travis-ci.org/vasuakeel/shorter.svg?branch=master)](https://travis-ci.org/vasuakeel/shorter)
 
   An idea to reduce a piece of code.
 
