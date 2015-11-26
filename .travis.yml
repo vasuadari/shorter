@@ -1,4 +1,7 @@
 deploy:
+  language: ruby
+  rvm:
+    - 2.0.0-p576
   provider: rubygems
   api_key:
     secure: Yfg1XGWLeSSms2XkNEts+8iPjLeLQPlFSQNPZ+M30ycB28tb9LbPflTl86VfSdPvy3yRnCkIvafUykYLmy2pH2lNw5J+ImAYfFGqTrm5d/UUq3yFyZSj7p5sb4dq92rORsEzTwSK79vF5iwC7WGzqbVBrogkAHYpvI83H7P4+FRzRnC+kD0VfvE7mKyR++VRmZNPhWnkldkpdiiNt0CBBx6qCPMPkRgK7UwiQQK896zzv4J51cmPy/DkPZYePFL1+g2SG2f8CuQdlX0TmjoomjZi0WF6HN3f1xBjNyDSw8jsSWtTzTe0PetVnHrw+9D1+wNB0RXNfdj0drgTiAKupf0q/XlWx286FaLzIdM68RAZZLNWsX+3ek8E0/mc5ucqlZxWbFo3chkCatkfHNfOzU/HxFcPZdzuqvLa3o5Ts5OhfqdlG2AuiKcKUb2bZG0a7JJrdyb0rc4Qu/uz2/Kqm1fx9AzKb9m1EjBbvFk0Iz6b4K5KTWe+NCbmozSBoXtAzzCoD0CON+4V5ngzCWk/cXQbXYGRfzYNa0aijEb1HV/4JhbwHvTJvtEQ6Q4TKyV5uo/aMOQArgKR8NrVz69YgtjtAdZ6eNDu8LuWYRtepJ7k9eqEDadDFFwBXg91Mef3HSRa+z8NmGLwv8rANUu92dQEGORqwyHCwc9YjauJoEc=
