@@ -1,4 +1,6 @@
-## Shorter [![Build Status](https://travis-ci.org/vasuakeel/shorter.svg?branch=master)](https://travis-ci.org/vasuakeel/shorter)
+## Shorter
+[![Gem Version](https://img.shields.io/gem/v/shorter.svg?style=flat)](http://rubygems.org/gems/shorter)
+[![Build Status](https://travis-ci.org/vasuakeel/shorter.svg?style=flat&branch=master)](https://travis-ci.org/vasuakeel/shorter)
 
   An idea to reduce a piece of code.
 
